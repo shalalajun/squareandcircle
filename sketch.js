@@ -10,3 +10,7 @@ function draw() {
   ellipse(width/2,height/2,40,40);
   // put drawing code here
 }
+
+document.ontouchmove = function(event) {
+    event.preventDefault();
+};
