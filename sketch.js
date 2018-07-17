@@ -1,8 +1,8 @@
 let balls = [];
 
 function setup() {
-  createCanvas(windowWidth, 400);
-  for(i = 0; i < 20; i++){
+  createCanvas(windowWidth, windowHeight);
+  for(i = 0; i < 2; i++){
     balls.push(new Ball(random(0,width), random(0,height/2), random(4,20)));
   }
 
